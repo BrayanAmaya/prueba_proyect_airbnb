@@ -8,7 +8,7 @@ class TblMunicipios extends Migration
 {
     public function up()
     {
-        $this->db->disableForeignKeyChecks();
+        //$this->db->disableForeignKeyChecks();
         $this->forge->addField([
             'idMunicipio'          => [
                 'type'           => 'INT',
@@ -38,9 +38,9 @@ class TblMunicipios extends Migration
             ],
         ]);
         $this->forge->addKey('idMunicipio', true);
-        $this->forge->addForeignKey('idDepartamento','tbl_departamentos','idDepartamento','CASCADE','SET NULL');
+        //$this->forge->addForeignKey('idDepartamento','tbl_departamentos','idDepartamento','CASCADE','SET NULL');
         $this->forge->createTable('tbl_municipios');
-        $this->db->enableForeignKeyChecks();
+        //$this->db->enableForeignKeyChecks();
     }
 
     public function down()
