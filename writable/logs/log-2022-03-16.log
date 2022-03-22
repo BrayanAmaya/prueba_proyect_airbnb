@@ -1,0 +1,111 @@
+ERROR - 2022-03-16 14:07:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-03-16 14:07:36 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-03-16 14:07:55 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-03-16 14:08:53 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-03-16 14:10:20 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+ERROR - 2022-03-16 14:24:30 --> Cannot add foreign key constraint
+ERROR - 2022-03-16 14:28:28 --> Cannot add foreign key constraint
+ERROR - 2022-03-16 14:34:52 --> Unknown column 'idCountry' in 'field list'
+ERROR - 2022-03-16 14:36:40 --> Table 'dimas.tbl_languages' doesn't exist
+CRITICAL - 2022-03-16 18:05:47 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-16 18:06:10 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-16 18:06:24 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-16 18:08:13 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-16 18:09:23 --> Indirect modification of overloaded property App\Entities\Usuario::$atributes has no effect
+#0 C:\laragon\www\proyect_airbnb\app\Entities\Usuario.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Indirect modifi...', 'C:\\laragon\\www\\...', 10, Array)
+#1 C:\laragon\www\proyect_airbnb\system\Entity\Entity.php(452): App\Entities\Usuario->setPassword('dimas')
+#2 C:\laragon\www\proyect_airbnb\system\Entity\Entity.php(139): CodeIgniter\Entity\Entity->__set('password', 'dimas')
+#3 C:\laragon\www\proyect_airbnb\system\Entity\Entity.php(120): CodeIgniter\Entity\Entity->fill(Array)
+#4 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(24): CodeIgniter\Entity\Entity->__construct(Array)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-16 18:10:23 --> Array to string conversion
+#0 C:\laragon\www\proyect_airbnb\app\Entities\Usuario.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\laragon\\www\\...', 14, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(25): App\Entities\Usuario->generarUsername()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-16 18:53:32 --> Duplicate entry 'Ivan Amaya' for key 'username'
+CRITICAL - 2022-03-16 18:53:32 --> Duplicate entry 'Ivan Amaya' for key 'username'
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\proyect_airbnb\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Usuario), false)
+#8 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(23): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#11 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-16 19:12:50 --> Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 19:13:02 --> Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 19:13:13 --> Use of undefined constant a - assumed 'a' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-16 19:30:28 --> Call to undefined function App\Controllers\Auth\configs()
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(802): App\Controllers\Auth\Registro->__construct()
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

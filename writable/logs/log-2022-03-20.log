@@ -1,0 +1,454 @@
+CRITICAL - 2022-03-20 11:14:02 --> Cannot redeclare App\Models\UsuarioModel::$beforeInsert
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-20 11:14:36 --> Argument 1 passed to App\Models\UsuarioModel::agregarDosRol() must be of the type string, array given, called in C:\laragon\www\proyect_airbnb\system\BaseModel.php on line 1456
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\UsuarioModel->agregarDosRol(Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(735): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#2 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Usuario), false)
+#4 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(67): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-20 11:15:47 --> Undefined property: stdClass::$idRol2
+#0 C:\laragon\www\proyect_airbnb\app\Models\UsuarioModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 44, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): App\Models\UsuarioModel->agregarDosRol('Usuario')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 11:16:32 --> Undefined property: stdClass::$idRol2
+#0 C:\laragon\www\proyect_airbnb\app\Models\UsuarioModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 44, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): App\Models\UsuarioModel->agregarDosRol('Usuario')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 11:17:19 --> Undefined property: stdClass::$idRol2
+#0 C:\laragon\www\proyect_airbnb\app\Models\UsuarioModel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): App\Models\UsuarioModel->agregarDosRol('Usuario')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 11:17:33 --> Undefined property: stdClass::$idRol2
+#0 C:\laragon\www\proyect_airbnb\app\Models\UsuarioModel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): App\Models\UsuarioModel->agregarDosRol('Usuario')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 11:21:31 --> Call to undefined method App\Models\UsuarioModel::agregarDosRol
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): CodeIgniter\Model->__call('agregarDosRol', Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 11:21:48 --> Undefined property: stdClass::$idRol2
+#0 C:\laragon\www\proyect_airbnb\app\Models\UsuarioModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 49, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): App\Models\UsuarioModel->agregarUnDosRol('Usuario')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 11:22:12 --> Undefined property: stdClass::$idRol2
+#0 C:\laragon\www\proyect_airbnb\app\Models\UsuarioModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 49, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): App\Models\UsuarioModel->agregarUnDosRol('Usuario')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 11:22:25 --> Undefined property: stdClass::$idRol2
+#0 C:\laragon\www\proyect_airbnb\app\Models\UsuarioModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\laragon\\www\\...', 49, Array)
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(65): App\Models\UsuarioModel->agregarUnDosRol('Usuario')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-20 11:37:52 --> syntax error, unexpected ';', expecting ']'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 12:31:25 --> Class 'App\Controllers\Usuario\Anfitrion' not found
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-20 12:31:48 --> Cannot declare class App\Entities\Usuario, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-20 12:32:05 --> Unknown column 'idRol2' in 'field list'
+CRITICAL - 2022-03-20 12:32:06 --> Unknown column 'idRol2' in 'field list'
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\proyect_airbnb\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Anfitrion), false)
+#8 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Object(App\Entities\Anfitrion))
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#11 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-20 12:32:48 --> Column 'idUsuario' cannot be null
+CRITICAL - 2022-03-20 12:32:49 --> Column 'idUsuario' cannot be null
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\proyect_airbnb\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Anfitrion), false)
+#8 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Object(App\Entities\Anfitrion))
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#11 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-20 12:37:21 --> Argument 1 passed to App\Models\AnfitrionesModel::agregarElUsuario() must be of the type string, null given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php on line 65
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(65): App\Models\AnfitrionesModel->agregarElUsuario(NULL)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-20 12:38:39 --> Column 'idUsuario' cannot be null
+CRITICAL - 2022-03-20 12:38:40 --> Column 'idUsuario' cannot be null
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\proyect_airbnb\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Anfitrion), false)
+#8 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Object(App\Entities\Anfitrion))
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#11 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-20 12:39:33 --> Cannot add or update a child row: a foreign key constraint fails (`dimas`.`tbl_anfitriones`, CONSTRAINT `tbl_anfitriones_idIdiomaAnfitrion_foreign` FOREIGN KEY (`idIdiomaAnfitrion`) REFERENCES `tbl_idioma_anfitrion` (`idIdiomaAnfitrion`) ON DELETE SET NULL O)
+CRITICAL - 2022-03-20 12:39:33 --> Cannot add or update a child row: a foreign key constraint fails (`dimas`.`tbl_anfitriones`, CONSTRAINT `tbl_anfitriones_idIdiomaAnfitrion_foreign` FOREIGN KEY (`idIdiomaAnfitrion`) REFERENCES `tbl_idioma_anfitrion` (`idIdiomaAnfitrion`) ON DELETE SET NULL O)
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\proyect_airbnb\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Anfitrion), false)
+#8 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Object(App\Entities\Anfitrion))
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#11 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-20 14:08:28 --> syntax error, unexpected '$anfitrion' (T_VARIABLE)
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:09:04 --> Cannot redeclare App\Models\AnfitrionesModel::agregarElUsuario()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-20 14:18:03 --> syntax error, unexpected '$modelUsuario' (T_VARIABLE)
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:18:05 --> syntax error, unexpected '$modelUsuario' (T_VARIABLE)
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:18:10 --> syntax error, unexpected '$modelUsuario' (T_VARIABLE)
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:18:16 --> syntax error, unexpected '$modelUsuario' (T_VARIABLE)
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:34:09 --> There is no data to insert.
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\IdiomaAnfitrion), false)
+#3 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Object(App\Entities\IdiomaAnfitrion))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:35:24 --> Undefined variable: idiomAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 69, Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 14:36:13 --> There is no data to insert.
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(71): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:37:29 --> There is no data to insert.
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(71): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:40:02 --> There is no data to insert.
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#3 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(71): CodeIgniter\BaseModel->save(Array)
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 14:41:06 --> agregarIdiomaSecundario is not a valid Model Event callback.
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1453): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('agregarIdiomaSe...')
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(735): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#2 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(71): CodeIgniter\BaseModel->save(Array)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-20 14:41:36 --> agregarIdiomaSecundario is not a valid Model Event callback.
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1453): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('agregarIdiomaSe...')
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(735): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#2 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(71): CodeIgniter\BaseModel->save(Array)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-20 15:14:55 --> Undefined index: idAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Models\IdiomaAnfitrionModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\IdiomaAnfitrionModel->idiomasAnfitrionAgregar(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Array)
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 15:15:51 --> Undefined index: idAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Models\IdiomaAnfitrionModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\IdiomaAnfitrionModel->idiomasAnfitrionAgregar(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Array)
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 15:16:26 --> Undefined index: idIdiomaAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Models\IdiomaAnfitrionModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\IdiomaAnfitrionModel->idiomasAnfitrionAgregar(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Array)
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 15:18:39 --> Undefined index: idIdiomaAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Models\IdiomaAnfitrionModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\IdiomaAnfitrionModel->idiomasAnfitrionAgregar(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(67): CodeIgniter\BaseModel->save(Array)
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 15:22:20 --> Undefined index: idIdiomaAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Models\IdiomaAnfitrionModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\IdiomaAnfitrionModel->idiomasAnfitrionAgregar(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(73): CodeIgniter\BaseModel->save(Array)
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 15:27:22 --> Argument 1 passed to App\Models\IdiomaAnfitrionModel::agregarUnIdiomaAnfitrion() must be an instance of App\Entities\Anfitrion, instance of App\Entities\IdiomaAnfitrion given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php on line 70
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(70): App\Models\IdiomaAnfitrionModel->agregarUnIdiomaAnfitrion(Object(App\Entities\IdiomaAnfitrion))
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 15:27:53 --> There is no data to insert.
+#0 C:\laragon\www\proyect_airbnb\system\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\IdiomaAnfitrion), false)
+#3 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(75): CodeIgniter\BaseModel->save(Object(App\Entities\IdiomaAnfitrion))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-20 15:30:15 --> Argument 1 passed to CodeIgniter\Entity\Entity::__construct() must be of the type array or null, string given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php on line 64
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(64): CodeIgniter\Entity\Entity->__construct('16')
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 15:31:20 --> Undefined index: idIdiomaAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Models\IdiomaAnfitrionModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 28, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\IdiomaAnfitrionModel->idiomasAnfitrionAgregar(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\IdiomaAnfitrion), false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(71): CodeIgniter\BaseModel->save(Object(App\Entities\IdiomaAnfitrion))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 16:06:30 --> syntax error, unexpected '$idioma' (T_VARIABLE), expecting ')'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Anfi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Anfi...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Anfi...')
+#4 C:\laragon\www\proyect_airbnb\system\Config\Factories.php(136): class_exists('App\\Models\\Anfi...')
+#5 C:\laragon\www\proyect_airbnb\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'AnfitrionesMode...')
+#6 C:\laragon\www\proyect_airbnb\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(79): model('AnfitrionesMode...')
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-20 16:06:50 --> Argument 1 passed to CodeIgniter\Entity\Entity::__construct() must be of the type array or null, object given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php on line 82
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(82): CodeIgniter\Entity\Entity->__construct(Object(App\Entities\Anfitrion))
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 16:07:32 --> Argument 1 passed to App\Models\AnfitrionesModel::agregarElUsuario() must be of the type string, null given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php on line 93
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(93): App\Models\AnfitrionesModel->agregarElUsuario(NULL)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 16:15:16 --> Argument 1 passed to CodeIgniter\Entity\Entity::__construct() must be of the type array or null, object given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php on line 82
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(82): CodeIgniter\Entity\Entity->__construct(Object(App\Entities\Anfitrion))
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 16:16:36 --> Argument 1 passed to CodeIgniter\Entity\Entity::__construct() must be of the type array or null, object given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php on line 82
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(82): CodeIgniter\Entity\Entity->__construct(Object(App\Entities\Anfitrion))
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-20 16:17:08 --> Undefined index: idAnfitrion
+#0 C:\laragon\www\proyect_airbnb\app\Models\AnfitrionesModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 44, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\AnfitrionesModel->agregarIdiomaPrimario(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Anfitrion), false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(95): CodeIgniter\BaseModel->save(Object(App\Entities\Anfitrion))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 16:18:06 --> Undefined index: idIdioma
+#0 C:\laragon\www\proyect_airbnb\app\Models\AnfitrionesModel.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 44, Array)
+#1 C:\laragon\www\proyect_airbnb\system\BaseModel.php(1456): App\Models\AnfitrionesModel->agregarIdiomaPrimario(Array)
+#2 C:\laragon\www\proyect_airbnb\system\BaseModel.php(748): CodeIgniter\BaseModel->trigger('afterInsert', Array)
+#3 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Anfitrion), false)
+#5 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Usuarios.php(95): CodeIgniter\BaseModel->save(Object(App\Entities\Anfitrion))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Usuarios->registrarAnfitrion()
+#7 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Usuarios))
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-20 23:57:30 --> Class App\Database\Migrations\TblIdiomaAnfitrion contains 2 abstract methods and must therefore be declared abstract or implement the remaining methods (CodeIgniter\Database\Migration::up, CodeIgniter\Database\Migration::down)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

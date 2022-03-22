@@ -1,0 +1,190 @@
+CRITICAL - 2022-03-17 12:28:20 --> Undefined variable: validation
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-17 12:29:06 --> Table 'dimas.usuario' doesn't exist
+CRITICAL - 2022-03-17 12:29:06 --> Table 'dimas.usuario' doesn't exist
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyect_airbnb\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('dimas@gmail.com', 'email', Array, NULL)
+#6 C:\laragon\www\proyect_airbnb\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'dimas@gmail.com', Array, Array)
+#7 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(32): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-17 12:29:55 --> Undefined variable: data
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 23, Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-17 12:30:09 --> Table 'dimas.usuario' doesn't exist
+CRITICAL - 2022-03-17 12:30:09 --> Table 'dimas.usuario' doesn't exist
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\laragon\www\proyect_airbnb\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('dimas@gmail.com', 'email', Array, NULL)
+#6 C:\laragon\www\proyect_airbnb\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'dimas@gmail.com', Array, Array)
+#7 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(33): CodeIgniter\Validation\Validation->run()
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-17 12:32:50 --> Argument 1 passed to CodeIgniter\Entity\Entity::__construct() must be of the type array or null, object given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php on line 24
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(24): CodeIgniter\Entity\Entity->__construct(Object(App\Models\UsuarioModel))
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 13:18:08 --> syntax error, unexpected '}', expecting ';'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 13:18:20 --> Call to undefined method App\Controllers\Auth\Registro::request()
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-17 13:27:45 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\proyect_airbnb\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(47): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrar()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 13:59:34 --> syntax error, unexpected ',', expecting ')'
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-17 13:59:39 --> syntax error, unexpected ',', expecting ')'
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-17 14:35:19 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 15:12:53 --> Call to undefined function seccion()
+#0 C:\laragon\www\proyect_airbnb\system\View\View.php(210): include()
+#1 C:\laragon\www\proyect_airbnb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\laragon\www\proyect_airbnb\system\Common.php(1089): CodeIgniter\View\View->render('usuario/inicio', Array, true)
+#3 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Servicios.php(10): view('usuario/inicio')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Servicios->index()
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Servicios))
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-17 15:20:02 --> syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF)
+#0 C:\laragon\www\proyect_airbnb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\proyect_airbnb\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\laragon\www\proyect_airbnb\app\Controllers\Home\Home.php(15): view('home')
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Home\Home->index()
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home\Home))
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-17 15:52:47 --> syntax error, unexpected '}'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Usua...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Usua...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Usua...')
+#4 C:\laragon\www\proyect_airbnb\system\Config\Factories.php(136): class_exists('App\\Models\\Usua...')
+#5 C:\laragon\www\proyect_airbnb\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'UsuarioModel')
+#6 C:\laragon\www\proyect_airbnb\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Servicios.php(11): model('UsuarioModel')
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Servicios->index()
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Servicios))
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-17 15:53:38 --> Call to undefined method App\Models\UsuarioModel::asignarUnRol
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Servicios.php(13): CodeIgniter\Model->__call('asignarUnRol', Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Servicios->index()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Servicios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 15:56:21 --> Undefined variable: data
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Usuario\Servicios.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\laragon\\www\\...', 19, Array)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Usuario\Servicios->index()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario\Servicios))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 17:16:27 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\proyect_airbnb\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\proyect_airbnb\app\Filters\Auth.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\proyect_airbnb\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 17:16:36 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\proyect_airbnb\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\proyect_airbnb\app\Filters\Auth.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\proyect_airbnb\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('auth/registro', 'before')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 17:16:49 -->  route cannot be found while reverse-routing.
+#0 C:\laragon\www\proyect_airbnb\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\laragon\www\proyect_airbnb\app\Filters\Auth.php(17): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\laragon\www\proyect_airbnb\system\Filters\Filters.php(173): App\Filters\Auth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('auth/login', 'before')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 17:20:59 --> Class 'App\Filters\Usuario' not found
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('usuario/servici...', 'before')
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-17 17:22:11 --> Class 'App\Filters\Usuario' not found
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('usuario/buscar', 'before')
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-03-17 17:23:09 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::with() must be of the type string, array given, called in C:\laragon\www\proyect_airbnb\app\Filters\Usuario.php on line 15
+#0 C:\laragon\www\proyect_airbnb\app\Filters\Usuario.php(15): CodeIgniter\HTTP\RedirectResponse->with(Array)
+#1 C:\laragon\www\proyect_airbnb\system\Filters\Filters.php(173): App\Filters\Usuario->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('usuario/buscar', 'before')
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 17:23:44 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::with() must be of the type string, array given, called in C:\laragon\www\proyect_airbnb\app\Filters\Usuario.php on line 15
+#0 C:\laragon\www\proyect_airbnb\app\Filters\Usuario.php(15): CodeIgniter\HTTP\RedirectResponse->with(Array)
+#1 C:\laragon\www\proyect_airbnb\system\Filters\Filters.php(173): App\Filters\Usuario->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('usuario/buscar', 'before')
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
