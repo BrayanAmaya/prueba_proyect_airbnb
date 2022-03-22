@@ -8,7 +8,7 @@ class TblDepartamentos extends Migration
 {
     public function up()
     {
-        $this->db->disableForeignKeyChecks();
+        //$this->db->disableForeignKeyChecks();
         $this->forge->addField([
             'idDepartamento'          => [
                 'type'           => 'INT',
@@ -38,9 +38,9 @@ class TblDepartamentos extends Migration
             ],
         ]);
         $this->forge->addKey('idDepartamento', true);
-        $this->forge->addForeignKey('idPais','tbl_paises','idPais','CASCADE','SET NULL');
+        //$this->forge->addForeignKey('idPais','tbl_paises','idPais','CASCADE','SET NULL');
         $this->forge->createTable('tbl_departamentos');
-        $this->db->enableForeignKeyChecks();
+        //$this->db->enableForeignKeyChecks();
     }
 
     public function down()
