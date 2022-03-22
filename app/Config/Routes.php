@@ -56,6 +56,7 @@ $routes->group('anfitrion',['namespace'=>'App\Controllers\Anfitrion', 'filter' =
     $routes->get('inicio', 'Anfitrion::index', ['as'=>'anfitrionInicio']);
     $routes->get('buscar', 'Anfitrion::buscar', ['as'=>'anfitrionBusqueda']);
     $routes->get('cerrar', 'Anfitrion::cerrar', ['as'=>'anfitrionSignout']);
+    $routes->get('regresar-usuario', 'Anfitrion::regresarUsuario', ['as'=>'regresarAUsuario']);
 });
 
 $routes->group('admin',['namespace'=>'App\Controllers\Admin', 'filter' => 'roles:Admin'],function($routes){

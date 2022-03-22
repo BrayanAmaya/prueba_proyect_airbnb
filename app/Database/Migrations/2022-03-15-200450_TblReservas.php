@@ -8,7 +8,7 @@ class TblReservas extends Migration
 {
     public function up()
     {
-        //$this->db->disableForeignKeyChecks();
+        $this->db->disableForeignKeyChecks();
         $this->forge->addField([
             'idReserva'          => [
                 'type'         => 'INT',
@@ -33,9 +33,9 @@ class TblReservas extends Migration
             ],
         ]);
         $this->forge->addKey('idReserva', true);
-        //$this->forge->addForeignKey('idPago','tbl_pagos','idPago','CASCADE','CASCADE');
+        $this->forge->addForeignKey('idPago','tbl_pagos','idPago','CASCADE','CASCADE');
         $this->forge->createTable('tbl_Reservas');
-        //$this->db->enableForeignKeyChecks();
+        $this->db->enableForeignKeyChecks();
     }
 
     public function down()

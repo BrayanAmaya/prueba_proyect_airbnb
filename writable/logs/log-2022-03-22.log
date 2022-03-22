@@ -1,0 +1,98 @@
+CRITICAL - 2022-03-22 00:30:55 --> Argument 1 passed to App\Models\UsuarioModel::buscarRol() must be of the type string, null given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Anfitrion\Anfitrion.php on line 23
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Anfitrion\Anfitrion.php(23): App\Models\UsuarioModel->buscarRol(NULL)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Anfitrion\Anfitrion->regresarUsuario()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anfitrion\Anfitrion))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-22 00:35:24 --> Call to a member function with() on string
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Anfitrion\Anfitrion->regresarUsuario()
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Anfitrion\Anfitrion))
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 00:48:30 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']'
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-22 12:08:45 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\proyect_airbnb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\proyect_airbnb\system\View\View.php(424): CodeIgniter\View\View->render('auth/layout/hea...', NULL, true)
+#2 C:\laragon\www\proyect_airbnb\app\Views\auth\main.php(47): CodeIgniter\View\View->include('auth/layout/hea...')
+#3 C:\laragon\www\proyect_airbnb\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\proyect_airbnb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\proyect_airbnb\system\View\View.php(226): CodeIgniter\View\View->render('auth/main', Array, true)
+#6 C:\laragon\www\proyect_airbnb\system\Common.php(1089): CodeIgniter\View\View->render('auth/registro', Array, true)
+#7 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(17): view('auth/registro')
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-22 12:09:12 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\proyect_airbnb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\laragon\www\proyect_airbnb\system\View\View.php(424): CodeIgniter\View\View->render('auth/layout/hea...', NULL, true)
+#2 C:\laragon\www\proyect_airbnb\app\Views\auth\main.php(47): CodeIgniter\View\View->include('auth/layout/hea...')
+#3 C:\laragon\www\proyect_airbnb\system\View\View.php(210): include('C:\\laragon\\www\\...')
+#4 C:\laragon\www\proyect_airbnb\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\laragon\www\proyect_airbnb\system\View\View.php(226): CodeIgniter\View\View->render('auth/main', Array, true)
+#6 C:\laragon\www\proyect_airbnb\system\Common.php(1089): CodeIgniter\View\View->render('auth/registro', Array, true)
+#7 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(17): view('auth/registro')
+#8 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->index()
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-03-22 12:10:01 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\proyect_airbnb\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-22 14:01:17 --> Unknown column 'cuentaBanco' in 'field list'
+CRITICAL - 2022-03-22 14:01:18 --> Unknown column 'cuentaBanco' in 'field list'
+#0 C:\laragon\www\proyect_airbnb\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\laragon\www\proyect_airbnb\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\laragon\www\proyect_airbnb\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\laragon\www\proyect_airbnb\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\proyect_airbnb\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\proyect_airbnb\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\proyect_airbnb\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\Usuario), false)
+#8 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(149): CodeIgniter\BaseModel->save(Object(App\Entities\Usuario))
+#9 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrarAnfitrion()
+#10 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#11 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-22 14:04:56 --> Argument 3 passed to CodeIgniter\HTTP\Request::fetchGlobal() must be of the type int or null, string given, called in C:\laragon\www\proyect_airbnb\system\HTTP\IncomingRequest.php on line 602
+#0 C:\laragon\www\proyect_airbnb\system\HTTP\IncomingRequest.php(602): CodeIgniter\HTTP\Request->fetchGlobal('post', 'nombre', 'apellido', 'email')
+#1 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(141): CodeIgniter\HTTP\IncomingRequest->getPost('nombre', 'apellido', 'email', 'numeroTeleono', 'password')
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrarAnfitrion()
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#4 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-22 14:09:31 --> Class 'App\Controllers\Auth\Anfitrion' not found
+#0 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrarAnfitrion()
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-22 14:10:08 --> Argument 1 passed to App\Models\AnfitrionesModel::agregarElUsuario() must be of the type string, null given, called in C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php on line 178
+#0 C:\laragon\www\proyect_airbnb\app\Controllers\Auth\Registro.php(178): App\Models\AnfitrionesModel->agregarElUsuario(NULL)
+#1 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(825): App\Controllers\Auth\Registro->registrarAnfitrion()
+#2 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Registro))
+#3 C:\laragon\www\proyect_airbnb\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\proyect_airbnb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

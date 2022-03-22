@@ -19,9 +19,9 @@ class UsuarioModel extends Model{
     protected $createdField  = 'date_create';
     protected $updatedField  = 'date_update';
     protected $deletedField  = 'date_delete';
-
+    
+    /*Variables para antes de insertar en la tabla*/
     protected $beforeInsert = ['agregarRol'];
-    //protected $afterUpdate = ['cambiarRol'];
 
     protected $asignarRol;
     protected $asignarCambiarRol;
@@ -29,18 +29,12 @@ class UsuarioModel extends Model{
     protected $asignarVistaRol;
     protected $asignarVistaDosRol;
 
-    /*protected $updateVistaRol;
-    protected $updateVistaDosRol;*/
 
     protected function agregarRol($data){
         $data['data']['idRol'] = $this->asignarRol;
         $data['data']['idRol2'] = $this->asignarRol;
         return $data;
     }
-   /* protected function agregarRolDos($data){
-        $data['data']['idRol2'] = $this->asignarRol;
-        return $data;
-    }*/
 
     public function agregarUnRol(string $rol){
         $row = $this->db()->table('tbl_roles')->where('rol',$rol)->get()->getFirstRow();
@@ -49,30 +43,12 @@ class UsuarioModel extends Model{
         }
     }
 
-    /*public function agregarUnDosRol(string $rol){
-        $row = $this->db()->table('tbl_roles')->where('rol',$rol)->get()->getFirstRow();
-        if($row !== null){
-            $this->asignarDosRol = $row->idRol;
-        }
-    }*/
-
     public function agregarCambiarRol(string $rol){
         $row = $this->db()->table('tbl_roles')->where('rol',$rol)->get()->getFirstRow();
         if($row !== null){
             $this->asignarCambiarRol = $row->idRol;
         }
     }
-
-    /*//Cambiar rol
-    protected function cambiarRol($data){
-        $this->asignarCambiarRol->idUsuario =  
-    }
-
-    public function agregarCambiarRol(Usuario $user){
-        $this->asignarCambiarRol = $user;
-    }*/
-
-
 
     public function buscarUsuario(string $email, string $value){
         return $this->where($email,$value)->first();
@@ -82,22 +58,12 @@ class UsuarioModel extends Model{
         $row = $this->db()->table('tbl_roles')->where('idRol',$value)->get()->getFirstRow();
         if($row !== null){
             $this->asignarVistaRol = $row->rol;
+        }
+    }
+    public function buscarRolDos(string $value){
+        $row = $this->db()->table('tbl_roles')->where('idRol',$value)->get()->getFirstRow();
+        if($row !== null){
             $this->asignarVistaDosRol = $row->rol;
         }
     }
-
-    /*public function buscarUpdateRol(string $value){
-        $row = $this->db()->table('tbl_roles')->where('idRol',$value)->get()->getFirstRow();
-        if($row !== null){
-            $this->updateVistaRol = $row->rol;
-            $this->updateVistaDosRol = $row->rol;
-        }
-    }*/
-
-    /*public function buscarDosRol(string $value){
-        $row = $this->db()->table('tbl_roles')->where('idRol',$value)->get()->getFirstRow();
-        if($row !== null){
-            $this->asignarVistaDosRol = $row->rol;
-        }
-    }*/
 }

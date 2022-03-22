@@ -27,13 +27,26 @@
                                     class="img-fluid" width="80px" height="60px" alt="">
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
-                            <li class="<?=service('request')->uri->getPath() == 'auth/registro' ? 'is-active' : '' ?>">
+                            <?php if(service('request')->uri->getPath() == 'auth/registro') : ?>
+                            <li>
+                                <a class="dropdown-item" href="<?=base_url(route_to('registerAnfittrion'))?>">Hazte
+                                    Anfitrión</a>
+                            </li>
+                            <?php else : ?>
+                            <li>
                                 <a class="dropdown-item" href="<?=base_url(route_to('register'))?>">Registrarse</a>
                             </li>
-                            <li class="<?=service('request')->uri->getPath() == 'auth/login' ? 'is-active' : '' ?>">
+                            <?php endif; ?>
+
+                            <?php if(service('request')->uri->getPath() == 'auth/login') : ?>
+                            <a class="dropdown-item" href="<?=base_url(route_to('registerAnfittrion'))?>">Hazte
+                                Anfitrión</a>
+                            <?php else : ?>
+                            <li>
                                 <a class="dropdown-item" href="<?=base_url(route_to('login'))?>">Iniciar
                                     sesion</a>
                             </li>
+                            <?php endif; ?>
                         </ul>
                     </div>
                 </div>

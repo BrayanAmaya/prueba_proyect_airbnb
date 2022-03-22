@@ -30,6 +30,10 @@
                                 <a class="dropdown-item" href="<?=base_url(route_to('anfitrionBusqueda'))?>">Buscar</a>
                             </li>
                             <li>
+                                <a class="dropdown-item" href="<?=base_url(route_to('regresarAUsuario'))?>">Regresar
+                                    modo usuario</a>
+                            </li>
+                            <li>
                                 <a class="dropdown-item" href="<?=base_url(route_to('anfitrionSignout'))?>">Cerrar
                                     Sesión</a>
                             </li>
