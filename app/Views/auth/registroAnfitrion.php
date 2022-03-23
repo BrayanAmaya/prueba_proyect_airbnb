@@ -52,8 +52,8 @@ Hazte Anfitrión
         <div class="field">
             <label class="label">Número de telefono</label>
             <div class="control">
-                <input name='numeroTelefono' value='<?=old('numeroTelefono')?>' class="input" type="text"
-                    placeholder="75757575">
+                <input name='numeroTelefono' value='<?=old('numeroTelefono')?>' class="input" type="number"
+                    placeholder="123456789">
             </div>
             <p class="is-danger help"><?=session('errors.numeroTelefono')?></p>
         </div>
@@ -61,7 +61,7 @@ Hazte Anfitrión
         <div class="field">
             <label class="label">Contraseña</label>
             <div class="control">
-                <input name='password' class="input" type="text" placeholder="Contraseña">
+                <input name='password' class="input" type="password" placeholder="Contraseña">
             </div>
             <p class="is-danger help"><?=session('errors.password')?></p>
         </div>
@@ -69,7 +69,7 @@ Hazte Anfitrión
         <div class="field">
             <label class="label">Confirma tu contraseña</label>
             <div class="control">
-                <input name='c-password' class="input" type="text" placeholder="Repite contraseña">
+                <input name='c-password' class="input" type="password" placeholder="Repite contraseña">
             </div>
         </div>
 
@@ -85,7 +85,7 @@ Hazte Anfitrión
         <div class="field">
             <label class="label">Cuenta de banco</label>
             <div class="control">
-                <input name='cuentaBanco' value='<?=old('cuentaBanco')?>' class="input" type="text"
+                <input name='cuentaBanco' value='<?=old('cuentaBanco')?>' class="input" type="number"
                     placeholder="ej: 00000000000-00">
             </div>
             <p class="is-danger help"><?=session('errors.cuentaBanco')?></p>

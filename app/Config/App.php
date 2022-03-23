@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://proyect_airbnb.test/';
+    public $baseURL = 'http://prueba_proyect_airbnb.test/';
 
     /**
      * --------------------------------------------------------------------------

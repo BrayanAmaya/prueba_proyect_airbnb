@@ -7,7 +7,7 @@ use CodeIgniter\Database\Migration;
 class TblAnfitriones extends Migration
 {
     public function up(){
-            //$this->db->disableForeignKeyChecks();
+            $this->db->disableForeignKeyChecks();
             $this->forge->addField([
                 'idAnfitrion'          => [
                     'type'           => 'INT',
@@ -77,12 +77,12 @@ class TblAnfitriones extends Migration
                 ],
             ]);
             $this->forge->addKey('idAnfitrion', true);
-            //$this->forge->addForeignKey('idUsuario','tbl_usuarios','idUsuario','CASCADE','CASCADE');
-            //$this->forge->addForeignKey('idiomaPrimario','tbl_idiomas','idIdioma','CASCADE','SET NULL');
-            //$this->forge->addForeignKey('idiomaSecundario','tbl_idiomas','idIdioma','CASCADE','SET NULL');
-            //$this->forge->addForeignKey('idiomaExtra','tbl_idiomas','idIdioma','CASCADE','SET NULL');
+            $this->forge->addForeignKey('idUsuario','tbl_usuarios','idUsuario','CASCADE','CASCADE');
+            $this->forge->addForeignKey('idiomaPrimario','tbl_idiomas','idIdioma','CASCADE','SET NULL');
+            $this->forge->addForeignKey('idiomaSecundario','tbl_idiomas','idIdioma','CASCADE','SET NULL');
+            $this->forge->addForeignKey('idiomaExtra','tbl_idiomas','idIdioma','CASCADE','SET NULL');
             $this->forge->createTable('tbl_anfitriones');
-            //$this->db->enableForeignKeyChecks();
+            $this->db->enableForeignKeyChecks();
     }
 
     public function down()

@@ -3,7 +3,7 @@
         <!--Menu-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="http://proyect_airbnb.test"><img src="img/logo.png" class="img-fluid"
+                <a class="navbar-brand" href="http://proyect_airbnb.test"><img src="img/logo.png" class="img"
                         width="60px" height="60px" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -22,7 +22,7 @@
                     <div class="btn-group" role="group">
                         <button id="btnGroupDrop1" type="button" class="btn write" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            <a class="navbar-brand" href="#"><img src="img/linicio.png" class="img-fluid" width="80px"
+                            <a class="navbar-brand" href="#"><img src="img/linicio.png" class="" width="80px"
                                     height="60px" alt="">
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">

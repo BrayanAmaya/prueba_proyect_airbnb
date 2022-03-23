@@ -42,7 +42,7 @@ Login
             </div>
             <div class="field">
                 <p class="control has-icons-left">
-                    <input class="input" name="password" type="password" placeholder="Contraseña">
+                    <input class="input" name="password" type="password" placeholder="Contraseña" size=20 style="width:200px">
                     <span class="icon is-small is-left">
                         <i class="fas fa-lock"></i>
                     </span>
